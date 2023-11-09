@@ -37,7 +37,7 @@ const Portfolio = () => {
                         <div className="tp-about__section-box text-center mb-40">
                            <h4 className="inner-section-subtitle">OVER 150K+ CLIENT</h4>
                            <h3 className="tp-section-title">Accomplish more, Together</h3>
-                           <p>Softuch blog is your knowledge center for everything remote.</p>
+                           <p>Starklabs blog is your knowledge center for everything remote.</p>
                         </div>
                      </div>
                   </div>

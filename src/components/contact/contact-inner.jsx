@@ -16,14 +16,14 @@ const inner_content = {
     {
       id: 1,
       icon: icon_1,
-      title: "contact@softuch.com",
-      link: "mailto:contact@softuch.com",
+      title: "contact@starklabs.in",
+      link: "mailto:contact@starklabs.in",
     },
     {
       id: 2,
       icon: icon_2,
-      title: "+1-202-555-0144",
-      link: "tel:+1-202-555-0144",
+      title: "+91 9650450261",
+      link: "tel:+91 9650450261",
     },
     {
       id: 3,

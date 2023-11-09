@@ -15,7 +15,7 @@ import brand_img_9 from "../../../public/assets/img/brand/brand-inner-9.png"
 
 const brand_content = {
     titel: "Trusted by Thousands Business",
-    description: <>More than 100,000+ teams are using Softuch</>,
+    description: <>More than 100,000+ teams are using Starklabs</>,
     
     brand_img: [
         {img: brand_img_1, delay: ".2s"},

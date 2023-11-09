@@ -9,7 +9,7 @@ import sales_img_3 from "../../public/assets/img/card/sale-3.png"
 const sales_content = {
     title: <>Track and <span>Analyze Sales</span> in Real time</>,
     dub_title: <>Track and Analyze Sales in Real time</>,
-    description: <>Centralize and simplify payments, and get comprehensive <br /> insights on your financials softuch.!</>,
+    description: <>Centralize and simplify payments, and get comprehensive <br /> insights on your financials Starklabs.!</>,
 
     sales_feature: [
         {
