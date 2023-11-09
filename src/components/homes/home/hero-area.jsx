@@ -12,8 +12,8 @@ import hero_4_img_2  from "../../../../public/assets/img/hero/hero-4-2.png";
 const hero_content = {
     sub_title: "Wellcome to starklabs",
     title: <>
-    <span><span className='child'>A1-Driven</span></span>{" "}
-    <span><span className='child'>Cyber Security</span></span>{" "}
+    <span><span className='child'>Where innovation</span></span>{" "}
+    <span><span className='child'>meets reliability</span></span>{" "}
     <span><span className='child'>Solutions</span></span>
     </>,
    //  title: "A1-Driven Cyber Security Solutions",
