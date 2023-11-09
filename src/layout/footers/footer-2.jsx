@@ -13,8 +13,8 @@ import google_ply from "../../../public/assets/img/footer/dwnld-3.png";
 
 const footer_content = {
     address: <>1811 Silverside Rd, Wilmington,<br />DE 19810, USA</>,
-    phone: "+806(000)8899",
-    email: "contact@info.com",
+    phone: "+91 9650450261",
+    email: "contact@starklabs.in",
     download: "Download App", 
     footer_lisks : [
         {

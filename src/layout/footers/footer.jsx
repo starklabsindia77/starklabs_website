@@ -17,8 +17,8 @@ import { useIsomorphicLayoutEffect } from '@/src/hooks/useIsomorphicEffect';
 const footer_content  = {
     title: <>Get Our Latest's News <br /> & Updates</>,
     description: <>Our highly skilled development teams <br /> specialized in data analysis.</>,
-    phone: "+806(000)8899",
-    contact_mail: "contact@info.com",
+    phone: "+91 9650450261",
+    contact_mail: "contact@starklabs.in",
     location: "1234 North Avenue Luke Lane, South Bend,",
 
     copy_right: <>Full Copyright & Design By <Link href="#">@Starklabs</Link> – {new Date().getFullYear()}</>,

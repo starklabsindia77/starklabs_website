@@ -15,8 +15,8 @@ import footer_logo from "../../../public/assets/img/logo/Starklabs.png";
 const footer_content = {
    sub_title: "SUBSCRIBE TO OUR NEWSLETTER",
    policy_text: <>By subscribing, you accepted the our <a href="#">Policy</a></>,
-   phone: "(+806)0008899",
-   email: "contact@info.com",
+   phone: "+91 9650450261",
+   email: "contact@starklabs.in",
    location: <>1811 Silverside Rd, <br />Wilmington, DE 19810, USA</>,
 
    footer_lisks: [

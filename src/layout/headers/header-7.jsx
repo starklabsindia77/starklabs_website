@@ -18,7 +18,7 @@ const HeaderSeven = () => {
                         <div className="row align-items-center">
                         <div className="col-6">
                             <div className="header-signin-logo">
-                                <Link href="/"><Image src={logo_white} alt="" /></Link> 
+                                <Link href="/"><Image src={logo_white} alt=""  style={{width: '450px'}}/></Link> 
                             </div>
                         </div>
                         <div className="col-6">
@@ -53,12 +53,12 @@ const HeaderSeven = () => {
                         <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-8 col-6">
                             <div className="header-bottom__right d-flex align-items-center justify-content-end">
                                 <div className="header-bottom__action header-bottom__action-4">
-                                    <Link className="d-none d-lg-inline-block header-bottom__action-2 border-none" href="/register">
+                                    {/* <Link className="d-none d-lg-inline-block header-bottom__action-2 border-none" href="/register">
                                     <span>Log In</span>
-                                    </Link>
+                                    </Link> */}
                                 </div>
                                 <div className="header-bottom__btn d-flex align-items-center">
-                                    <Link className="tp-btn-yellow d-none d-md-inline-block inner-color" href="#">Get in Touch</Link>
+                                    <Link className="tp-btn-yellow d-none d-md-inline-block inner-color" href="/contact" >Get in Touch</Link>
                                     <a className="header-bottom__bar tp-menu-bar d-lg-none"><i className="fal fa-bars"></i></a>
                                 </div>
                             </div>

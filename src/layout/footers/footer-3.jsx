@@ -15,9 +15,9 @@ const footer_content = {
     bg_img: "/assets/img/footer/overly.png",
     title: <>Get Early Access to Softuch. <br /> <span>Close Your Books Faster and Grow.</span></>,
     btn_text: "Try it on Browser",
-    phone: "+806(000)8899",
-    email: "contact@info.com",
-    description: <>Build a modern and creative website with crealand</>,
+    phone: "+91 9650450261",
+    email: "contact@starklabs.in",
+    description: <>We power your business with cutting-edge IT solutions</>,
 
     footer_lisks : [
         {

@@ -14,9 +14,9 @@ import footer_logo from "../../../public/assets/img/logo/Starklabs-dark.png";
 
 
 const footer_content = {
-    info:"Build a modern and creative website with crealand",
-    phone: "+806 (000) 88 99",
-    email: "contact@info.com",
+    info:"We power your business with cutting-edge IT solutions",
+    phone: "+91 9650450261",
+    email: "contact@starklabs.in",
     
     footer_lisks : [
         {

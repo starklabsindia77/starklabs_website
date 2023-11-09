@@ -12,8 +12,8 @@ import shape_1 from "../../../../public/assets/img/contact/shape-4-1.png"
 const contact_content = {
     sub_title: "CONTACT US",
     title: "Request Free Consultancy",
-    phone: "(+806)0008899",
-    email: "contact@info.com",
+    phone: "+91 9650450261",
+    email: "contact@starklabs.in",
     location: <>1811 Silverside Rd, Wilmington, DE 19810, USA</>,
 }
 const {sub_title, title , phone, email, location}  = contact_content

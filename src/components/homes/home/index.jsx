@@ -26,7 +26,7 @@ const HomeFour = () => {
             <AboutArea />
             <FunFactArea />
             <PlatformArea />
-            <PriceArea />
+            {/* <PriceArea /> */}
             <TeamArea />
             <SecurityArea />
             <BlogArea />

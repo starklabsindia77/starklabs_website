@@ -87,13 +87,13 @@ const Header = () => {
                                     onClick={() => setSearchOpen(true)} > 
                                     <SearchIconTwo />
                                  </a>
-                                 <Link className="d-none d-lg-inline-block last-child" href="/register">
+                                 {/* <Link className="d-none d-lg-inline-block last-child" href="/register">
                                     <UserIcon /> 
                                     <span>Log In</span>
-                                 </Link>
+                                 </Link> */}
                               </div>
                               <div className="header-bottom__btn d-flex align-items-center">
-                                 <Link className="tp-btn-white tp-btn-hover alt-color-black d-none d-md-inline-block" href="/service-details">
+                                 <Link className="tp-btn-white tp-btn-hover alt-color-black d-none d-md-inline-block" href="/contact" >
                                     <span className="white-text">Get Started</span>
                                     <b></b>
                                  </Link>
