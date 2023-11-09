@@ -12,6 +12,8 @@ import img_2 from "../../public/assets/img/service/sv-icon-2.png";
 import img_3 from "../../public/assets/img/service/sv-icon-3.png";
 import img_4 from "../../public/assets/img/service/sv-icon-4.png";
 import img_5 from "../../public/assets/img/service/sv-icon-5.png";
+
+import ManagedServices from "../../public/assets/img/service/managed-services.png";
 // for home 04
 import icon_1 from "../../public/assets/img/service/sv-icon-4-1.png"
 import icon_2 from "../../public/assets/img/service/sv-icon-4-2.png"
@@ -38,8 +40,8 @@ const  service_data = [
     // for home 01 
     {
         id: 1,
-        icon: img_1,
-        img: img_1,
+        icon: ManagedServices,
+        img: ManagedServices,
         title: "Managed Services",
         description: <>Why hire an internal IT person, when you can have an entire team of IT experts for a fraction of the cost?</>,
         delay: ".4s",
