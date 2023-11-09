@@ -10,6 +10,7 @@ import Brand from "./brand";
 import CompanyArea from "./company-area";
 import JobArea from "./job-area";
 import JourneyArea from "./journey-area";
+import PaymentMethodArea from "@/src/common/payment-method-area";
  
 const About = () => {
   return (
@@ -19,6 +20,7 @@ const About = () => {
       <HeroBanner title="About" subtitle="Starklabs" bg_img="/assets/img/breadcrumb/breadcrumb-2.jpg" />
       <Brand />
       <CompanyArea />
+      <PaymentMethodArea />
       <AboutArea />
       <TeamArea bg_style={true} />
       <JourneyArea />

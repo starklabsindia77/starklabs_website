@@ -35,7 +35,7 @@ const CompanyArea = () => {
                         </div>
                      </div>
                   </div>
-                  <div className="row align-items-center">
+                  {/* <div className="row align-items-center">
                      <div className="col-xl-4">
                         <div className="ab-company-video">
                            <a className="popup-video" 
@@ -77,7 +77,7 @@ const CompanyArea = () => {
                            </div>
                         </div>
                      </div>
-                  </div>
+                  </div> */}
                </div>
             </div>
 

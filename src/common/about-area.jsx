@@ -40,15 +40,15 @@ const about_data =[
 
 // about content
 const about_content = {
-    title: "OVER 150K+ CLIENT",
-    sub_title: "We Offer Real Time Data Solutions", 
-    des: <>Excepteur sint occaecat cupidatat officia non proident <br />
-    sunt in culpa qui deserunt.!</>,
+    title: "Empower Your Business with Robust API Development",
+    sub_title: "Unlock API potential.", 
+    des: <>       
+    In today's digital landscape, APIs (Application Programming Interfaces) serve as the backbone of seamlessly integrated applications and services. At StarkLabs, our team of experienced API developers empowers businesses to leverage the full potential of APIs, driving efficiency, innovation, and competitive advantage.</>,
 
     about_list: [
-        <>Various analysis options.</>,
-        <>Page Load (time, size, number of requests).</>,
-        <> Big data analysis.</>,
+        <>Connect your systems and applications effortlessly, enabling seamless data exchange and unified functionality.</>,
+        <>Create personalized and engaging customer experiences through API-driven interactions</>,
+        <>Unleash the power of APIs to foster new business opportunities and accelerate your journey into the digital era.</>,
     ],
     btn_text: "About Us",
 
@@ -62,7 +62,7 @@ const AboutArea = () => {
             <div className="tp-about__area tp-about__pt-pb pt-100 pb-160">
                <div className="container">
                   <div className="row align-items-center">
-                     <div className="col-xl-6 col-lg-6 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".2s">
+                     <div className="col-xl-5 col-lg-5 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".2s">
                         <div className="tp-about__img-wrapper text-center text-lg-end p-relative">
                             {about_data.map((item, i)  => 
                                 <div key={i} className={`tp-about__${item.cls}`}>
@@ -71,7 +71,7 @@ const AboutArea = () => {
                             )} 
                         </div>
                      </div>
-                     <div className="col-xl-6 col-lg-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".6s">
+                     <div className="col-xl-7 col-lg-7 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".6s">
                         <div className="tp-about__right">
                            <div className="tp-about__section-box">
                               <h4 className="tp-section-subtitle">{title}</h4>
