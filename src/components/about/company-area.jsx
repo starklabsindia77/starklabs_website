@@ -3,10 +3,10 @@ import React,{useState} from 'react';
 
 const company_content ={
     sub_title:  "ABOUT THE COMPANY",
-    title: <>Starklabs is Made <br />For the Creator.</>,
-    info_1: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum arcu sollicitudin viverra sit elit leo in. Vitae eu tellus mattis quis. Eu, tempus donec nam mauris egestas. Id aliquet ultricies ligula tellus arcu dolor. Massa arcu pulvinar in mattis</>,
-    info_2: <>Feugiat purus congue risus, blandit a sed. In aenean quam aenean purus dictum pellentesque consequat.!</>,
-    info_3: <>Our clean and simple APIs and transparent SaaS model will give you complete peace of mind.</>,
+    title: <>Trusted delivery for global brands.</>,
+    info_1: <>StarkLabs is a leading provider of cutting-edge IT solutions for businesses of all sizes. With over 10 years of combined experience, our team of experts is dedicated to helping our clients achieve their business goals through innovative technology solutions.</>,
+    info_2: <>We are committed to providing our clients with the highest quality of service and support. We are passionate about technology and we believe that it can be a powerful tool for businesses of all sizes.</>,
+    info_3: <>Our mission is to help businesses of all sizes achieve their full potential through innovative technology solutions. We are committed to providing our clients with the highest quality of service and support, and we are always looking for new ways to improve our offerings.</>,
 }
 const {sub_title, title, info_1, info_2, info_3}  = company_content
 
