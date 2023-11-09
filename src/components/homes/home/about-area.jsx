@@ -9,14 +9,18 @@ import img_3 from "../../../../public/assets/img/about/about-4-2.png";
 // about content here
 const about_content = { 
     sub_title: "Who we are",
-    title: "Confidence in Your Security", 
-    des: <>These cyberattacks are usually aimed at accessing, changing,or destroying sensitive information normal business processes.!</>,
-    feature_1: <>High-Performance <br /> Solutions</>,
-    feature_2: <>Best Cyber Security <br /> Solutions.</>,
+    title: "Solving IT challenges in every industry, every day.", 
+    des: <>At Starklabs, we thrive on solving intricate IT challenges across diverse industries, day in and day out. Our expertise transforms obstacles into opportunities, ensuring seamless operations and unparalleled efficiency for your business.</>,
+    feature_1: <>Industry & Manufacturing</>,
+    feature_2: <>Transportation & Logistics</>,
+    feature_3: <>Healthcare</>,
+    feature_4: <>Banks & Insurance</>,
+    feature_5: <>Consulting Providers</>,
+    feature_6: <>Non-Profit</>,
     btn_text: "About Us",
 }
 
-const {sub_title, title, des, feature_1, feature_2, btn_text }  = about_content
+const {sub_title, title, des, feature_1, feature_2, feature_3, feature_4, feature_5, feature_6, btn_text }  = about_content
 
 
 const AboutArea = () => {
@@ -47,6 +51,10 @@ const AboutArea = () => {
                               <ul>
                                  <li><i className="far fa-check"></i>{feature_1}</li>
                                  <li><i className="far fa-check"></i>{feature_2}</li>
+                                 <li><i className="far fa-check"></i>{feature_3}</li>
+                                 <li><i className="far fa-check"></i>{feature_4}</li>
+                                 <li><i className="far fa-check"></i>{feature_5}</li>
+                                 <li><i className="far fa-check"></i>{feature_6}</li>
                               </ul>
                            </div>
                            <div className="tp-security-btn">

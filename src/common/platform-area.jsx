@@ -6,8 +6,8 @@ import platform_img from "../../public/assets/img/payment/platform-1.png";
 
 const platform_content ={
     sub_title: "What we offer",
-    title: "Our Platform",
-    description: <>Explore how Avalance can help you toassess security controls continuously.</>,
+    title: "Simplifying IT",
+    description: <>At Starklabs, we specialize in simplifying the complexities of IT, ensuring a seamless and efficient technological landscape for your business.</>,
 
 }
 const { sub_title, title, description }  = platform_content
@@ -18,36 +18,36 @@ const platform_data = [
         id: 1,
         cls: "one", 
         count: "01",
-        title: "Firewall & VPN",
-        sub_title: "Live Security",
-        des: <>Blocks infected website tracking programs and annoying.</>
+        title: "Cost-effectiveness",
+        sub_title: "Cost Effective",
+        des: <>We offer affordable IT solutions that help you reduce costs and improve your bottom line.</>
         
     },
     {
         id: 2,
         cls: "two", 
         count: "02",
-        title: "Hack Protection",
-        sub_title: "Hack Protection",
-        des: <>Blocks infected website tracking programs and annoying.</>,
+        title: "Innovative Technology",
+        sub_title: "Innovative Tech",
+        des: <>We stay up-to-date with the latest technology trends and offer innovative solutions that help you stay ahead of the competition.</>,
         
     },
     {
         id: 3,
         cls: "three", 
         count: "03",
-        title: "Live Security",
-        sub_title: "Live Security",
-        des: <>Blocks infected website tracking programs and annoying.</>,
+        title: "Industry Expertise",
+        sub_title: "Industry Expert",
+        des: <>We specialize in serving specific industries, such as healthcare, finance, or manufacturing, and offer tailored solutions that meet your unique needs.</>,
         
     },
     {
         id: 4,
         cls: "four", 
         count: "04",
-        title: "Online Support",
-        sub_title: "Online Support",
-        des: <>Blocks infected website tracking programs and annoying.</>,
+        title: "Scalability",
+        sub_title: "Scalability",
+        des: <>Our solutions are scalable and can grow with your business, ensuring that you get the most value out of your investment.</>,
         
     },
 ]
