@@ -11,7 +11,7 @@ const CareerDetails = () => {
     <>
       <HeaderSix />
       <main>
-      <BreadcrumbTwo title={"Careers Details"} innertitle={" Careers page"} career_details={true} />
+      <BreadcrumbTwo title={"Careers Details"} innertitle={" Careers "} career_details={true} />
       <CareerDetailsArea />
       <JobArea style_carrer={true}/>
       <CtaArea />
