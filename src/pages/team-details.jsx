@@ -6,7 +6,7 @@ import Wrapper from "../layout/wrapper";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"starklabs - Data analytics"} />
+      <SEO pageTitle={"Starklabs - We power your business with cutting-edge IT solutions"} />
       <TeamDetails /> 
     </Wrapper>
   );

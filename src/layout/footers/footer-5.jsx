@@ -26,12 +26,14 @@ const footer_content = {
             title: "Navigation",
             delay: ".7s",
             links: [
-                {name: "Damo page", link: "#"},
+                
                 {name: "About", link: "/about"},
-                {name: "Pricing Plan", link: "/price"},
-                {name: "Integrations", link: "/integrations"},
-                {name: "Blog", link: "/blog"},
-                {name: "Contact", link: "/contact"},
+                {name: "Career", link: "/career" },
+                { name: "Blog", link: "/blog" },
+                { name: "Integrations", link: "/integrations" },
+                { name: "Contact", link: "/contact" },
+                
+               
             ]
         },
         {
@@ -41,12 +43,11 @@ const footer_content = {
             title: "Other Pages",
             delay: ".9s",
             links: [
-                {name: "Features", link: "#"},
-                {name: "Team", link: "/team"},
-                {name: "Careers", link: "#"},
-                {name: "Login", link: "/login"},
-                {name: "Register", link: "/register"},
-                {name: "404 Not found", link: "/404"},
+               { name: "FAQ", link: "/faq" }, 
+               { name: "Privacy Policy", link: "/policy" },
+               { name: "Discloures", link: "/discloures" },
+               { name: "Terms & Conditions", link: "/terms" },
+               { name: "Disclaimer", link: "/disclaimer" },
             ]
         },
 

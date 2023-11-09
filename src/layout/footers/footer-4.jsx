@@ -20,17 +20,17 @@ const footer_content = {
    location: <>1811 Silverside Rd, <br />Wilmington, DE 19810, USA</>,
 
    footer_lisks: [
-      { name: "Damo page", link: "#" },
-      { name: "FAQ", link: "/faq" },
       { name: "About", link: "/about" },
-      { name: "Pricing Plan", link: "/price" },
+      { name: "FAQ", link: "/faq" },      
+      { name: "Career", link: "/career" },      
       { name: "Integrations", link: "/integrations" },
       { name: "Blog", link: "/blog" },
       { name: "Contact", link: "/contact" },
-      { name: "Tools & Integrations", link: "/integrations" },
-      { name: "Security", link: "#" },
-      { name: "Customers", link: "#" },
-      { name: "Career", link: "#" },
+      { name: "Privacy Policy", link: "/policy" },
+      { name: "Terms & Conditions", link: "/terms" },
+      { name: "Discloures", link: "/discloures" },
+      { name: "Disclaimer", link: "/disclaimer" },
+      
 
    ],
 }
