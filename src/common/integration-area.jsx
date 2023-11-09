@@ -4,14 +4,14 @@ import React from 'react';
 import Slider from 'react-slick';
 
 // slider img import here
-import slider_img_1_1 from "../../../../public/assets/img/integration/integration-1.png";
-import slider_img_1_2 from "../../../../public/assets/img/integration/integration-2.png";
-import slider_img_1_3 from "../../../../public/assets/img/integration/integration-3.png";
-import slider_img_1_4 from "../../../../public/assets/img/integration/integration-4.png";
-import slider_img_2_1 from "../../../../public/assets/img/integration/integration-5.png";
-import slider_img_2_2 from "../../../../public/assets/img/integration/integration-6.png";
-import slider_img_2_3 from "../../../../public/assets/img/integration/integration-7.png";
-import slider_img_2_4 from "../../../../public/assets/img/integration/integration-8.png";
+import slider_img_1_1 from "../../public/assets/img/integration/integration-1.png";
+import slider_img_1_2 from "../../public/assets/img/integration/integration-2.png";
+import slider_img_1_3 from "../../public/assets/img/integration/integration-3.png";
+import slider_img_1_4 from "../../public/assets/img/integration/integration-4.png";
+import slider_img_2_1 from "../../public/assets/img/integration/integration-5.png";
+import slider_img_2_2 from "../../public/assets/img/integration/integration-6.png";
+import slider_img_2_3 from "../../public/assets/img/integration/integration-7.png";
+import slider_img_2_4 from "../../public/assets/img/integration/integration-8.png";
 
 const integration_content ={
     sub_title: "Integration",

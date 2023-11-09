@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-import img from "../../../../public/assets/img/faq/faq-1.png" 
+import img from "../../public/assets/img/faq/faq-1.png" 
 
 const faq_content = {
     sub_title: "Support",
