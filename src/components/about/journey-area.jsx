@@ -66,83 +66,83 @@ const setting = {
         description: <>We envision sales teams having the tools <br />
         and talent they need to make remote <br /> work.</>,
     },
-  //   {
-  //       id: "06", 
-  //       date: "OCT 2020",
-  //       title: <>Official <br /> Beta Launch</>,
-  //       description: <>We envision sales teams having the tools <br />
-  //       and talent they need to make remote <br /> work.</>,
-  //   },
-  //   {
-  //     id: "07", 
-  //     date: "OCT 2021",
-  //     title: <>Rolling <br /> Up Sleeves</>,
-  //     description: <>We envision sales teams having the tools <br />
-  //     and talent they need to make remote <br /> work.</>,
-  // },
-  // {
-  //     id: '08', 
-  //     date: "OCT 2022",
-  //     title: <>Design <br />Rewards In NYC</>,
-  //     description: <>We envision sales teams having the tools <br />
-  //     and talent they need to make remote <br /> work.</>,
-  // },
-  // {
-  //     id: "09", 
-  //     date: "Present",
-  //     title: <>Featured On <br /> Envato</>,
-  //     description: <>We envision sales teams having the tools <br />
-  //     and talent they need to make remote <br /> work.</>,
-  // },
-  // {
-  //     id: "10", 
-  //     date: "OCT 2020",
-  //     title: <>Official <br /> Beta Launch</>,
-  //     description: <>We envision sales teams having the tools <br />
-  //     and talent they need to make remote <br /> work.</>,
-  // },
-  // {
-  //   id: "11", 
-  //   date: "OCT 2019",
-  //   title: <>Our Vision <br /> Of a better Way</>,
-  //   description: <>We envision sales teams having the tools <br />
-  //   and talent they need to make remote <br /> work.</>,
-  // },
-  // {
-  //     id: "12", 
-  //     date: "OCT 2020",
-  //     title: <>Official <br /> Beta Launch</>,
-  //     description: <>We envision sales teams having the tools <br />
-  //     and talent they need to make remote <br /> work.</>,
-  // },
-  // {
-  //   id: "13", 
-  //   date: "OCT 2021",
-  //   title: <>Rolling <br /> Up Sleeves</>,
-  //   description: <>We envision sales teams having the tools <br />
-  //   and talent they need to make remote <br /> work.</>,
-  // },
-  // {
-  //   id: '14', 
-  //   date: "OCT 2022",
-  //   title: <>Design <br />Rewards In NYC</>,
-  //   description: <>We envision sales teams having the tools <br />
-  //   and talent they need to make remote <br /> work.</>,
-  // },
-  // {
-  //   id: "15", 
-  //   date: "Present",
-  //   title: <>Featured On <br /> Envato</>,
-  //   description: <>We envision sales teams having the tools <br />
-  //   and talent they need to make remote <br /> work.</>,
-  // },
-  // {
-  //   id: "16", 
-  //   date: "OCT 2020",
-  //   title: <>Official <br /> Beta Launch</>,
-  //   description: <>We envision sales teams having the tools <br />
-  //   and talent they need to make remote <br /> work.</>,
-  // },
+      {
+          id: "06", 
+          date: "OCT 2020",
+          title: <>Official <br /> Beta Launch</>,
+          description: <>We envision sales teams having the tools <br />
+          and talent they need to make remote <br /> work.</>,
+      },
+      {
+        id: "07", 
+        date: "OCT 2021",
+        title: <>Rolling <br /> Up Sleeves</>,
+        description: <>We envision sales teams having the tools <br />
+        and talent they need to make remote <br /> work.</>,
+    },
+    {
+        id: '08', 
+        date: "OCT 2022",
+        title: <>Design <br />Rewards In NYC</>,
+        description: <>We envision sales teams having the tools <br />
+        and talent they need to make remote <br /> work.</>,
+    },
+    {
+        id: "09", 
+        date: "Present",
+        title: <>Featured On <br /> Envato</>,
+        description: <>We envision sales teams having the tools <br />
+        and talent they need to make remote <br /> work.</>,
+    },
+    {
+        id: "10", 
+        date: "OCT 2020",
+        title: <>Official <br /> Beta Launch</>,
+        description: <>We envision sales teams having the tools <br />
+        and talent they need to make remote <br /> work.</>,
+    },
+    {
+      id: "11", 
+      date: "OCT 2019",
+      title: <>Our Vision <br /> Of a better Way</>,
+      description: <>We envision sales teams having the tools <br />
+      and talent they need to make remote <br /> work.</>,
+    },
+    {
+        id: "12", 
+        date: "OCT 2020",
+        title: <>Official <br /> Beta Launch</>,
+        description: <>We envision sales teams having the tools <br />
+        and talent they need to make remote <br /> work.</>,
+    },
+    {
+      id: "13", 
+      date: "OCT 2021",
+      title: <>Rolling <br /> Up Sleeves</>,
+      description: <>We envision sales teams having the tools <br />
+      and talent they need to make remote <br /> work.</>,
+    },
+    {
+      id: '14', 
+      date: "OCT 2022",
+      title: <>Design <br />Rewards In NYC</>,
+      description: <>We envision sales teams having the tools <br />
+      and talent they need to make remote <br /> work.</>,
+    },
+    {
+      id: "15", 
+      date: "Present",
+      title: <>Featured On <br /> Envato</>,
+      description: <>We envision sales teams having the tools <br />
+      and talent they need to make remote <br /> work.</>,
+    },
+    {
+      id: "16", 
+      date: "OCT 2020",
+      title: <>Official <br /> Beta Launch</>,
+      description: <>We envision sales teams having the tools <br />
+      and talent they need to make remote <br /> work.</>,
+    },
   ]
 
 const JourneyArea = () => {

@@ -29,13 +29,13 @@ const job_data = {
         },
         {
             id:4, 
-            category: "Finance Executive",
+            category: "Business Development Executive",
             job_time: "Full-time",
             job_location: "WFH",
         },
         {
             id:5, 
-            category: "Junior Copywriter",
+            category: "Business Development Manager",
             job_time: "Full-time",
             job_location: "WFH",
         },
