@@ -28,8 +28,8 @@ const inner_content = {
     {
       id: 3,
       icon: icon_3,
-      title: "35Park Avenue, Uk",
-      link: "https://www.google.com.bd/maps/@23.7806365,90.4193257,12z",
+      title: "ABL Workspaces, Sector 4 Noida",
+      link: "https://www.google.com.bd/maps/place/ABL+Workspaces/@28.582593,77.322708,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce5c634e7d5c9:0x541263cf553b858e!8m2!3d28.5825883!4d77.3252829!16s%2Fg%2F11f7q_g5xn?entry=ttu",
     },
   ],
 };

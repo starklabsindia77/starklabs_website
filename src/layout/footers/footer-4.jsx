@@ -17,7 +17,7 @@ const footer_content = {
    policy_text: <>By subscribing, you accepted the our <a href="#">Policy</a></>,
    phone: "+91 9650450261",
    email: "contact@starklabs.in",
-   location: <>1811 Silverside Rd, <br />Wilmington, DE 19810, USA</>,
+   location: <>ABL Workspaces coworking, Sector 4 Noida, UP 201301, India</>,
 
    footer_lisks: [
       { name: "About", link: "/about" },

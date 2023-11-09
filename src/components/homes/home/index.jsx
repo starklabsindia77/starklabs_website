@@ -1,4 +1,4 @@
-import PriceArea from "@/src/common/price-area";
+import TechArea from "@/src/common/tech-area";
 import FooterFour from "@/src/layout/footers/footer-4";
 import HeaderFour from "@/src/layout/headers/header-4";
 import React from "react";
@@ -12,6 +12,7 @@ import PlatformArea from "../../../common/platform-area";
 import SecurityArea from "./security-area";
 import ServiceArea from "./service-area";
 import TeamArea from "./team-area"; 
+import PaymentMethodArea from "@/src/common/payment-method-area";
 
 const HomeFour = () => {
   return (
@@ -26,7 +27,7 @@ const HomeFour = () => {
             <AboutArea />
             <FunFactArea />
             <PlatformArea />
-            {/* <PriceArea /> */}
+            <TechArea />
             <TeamArea />
             <SecurityArea />
             <BlogArea />

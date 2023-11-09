@@ -14,7 +14,7 @@ const contact_content = {
     title: "Request Free Consultancy",
     phone: "+91 9650450261",
     email: "contact@starklabs.in",
-    location: <>1811 Silverside Rd, Wilmington, DE 19810, USA</>,
+    location: <>ABL Workspaces coworking, Sector 4 Noida, UP 201301, India</>,
 }
 const {sub_title, title , phone, email, location}  = contact_content
 

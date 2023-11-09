@@ -12,9 +12,9 @@ import hero_4_img_2  from "../../../../public/assets/img/hero/hero-4-2.png";
 const hero_content = {
     sub_title: "Wellcome to starklabs",
     title: <>
-    <span><span className='child'>Where innovation</span></span>{" "}
-    <span><span className='child'>meets reliability</span></span>{" "}
-    <span><span className='child'>Solutions</span></span>
+    <span><span className='child'>We manage your IT</span></span>{" "}
+    <span><span className='child'>so you can manage</span></span>{" "}
+    <span><span className='child'>your business.</span></span>
     </>,
    //  title: "A1-Driven Cyber Security Solutions",
 }
@@ -35,7 +35,7 @@ const HeroArea = () => {
                </div>
                <div className="container">
                   <div className="row">
-                     <div className="col-xl-7 col-lg-7">
+                     <div className="col-xl-8 col-lg-8">
                         <div className="tp-hero-4-section-box pt-10 z-index-3">
                            <h5 className="tp-section-subtitle-4 tp-char-animation wow tpfadeRight" data-wow-duration="1s" data-wow-delay=".6s">{sub_title}</h5>
 
@@ -48,7 +48,7 @@ const HeroArea = () => {
                             </Link>
                         </div>
                      </div>
-                     <div className="col-xl-5 col-lg-5">
+                     <div className="col-xl-4 col-lg-4">
                         <div className="tp-hero-4-img-wrapper p-relative">
                            <div className="tp-hero-4-main-img text-center z-index-3">
                               <Image src={hero_4_img_1} alt="starklabs" />

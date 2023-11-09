@@ -13,24 +13,24 @@ const office_data = [
     {
         id: 1, 
         cls:"",
-        img: img_1,
-        location: "Colombia",
-        address: <>Bogota D.C., Colombia, b. a 181 <br /> C No. 930 Ap 202</>,
+        img: img_2,
+        location: "France",
+        address: <>coming soon</>,
     },
     {
         id: 2, 
         cls:"p-relative",
-        img: img_2,
+        img: img_1,
         badge: "Main Office",
-        location: "France",
-        address: <>9 Pearse Street, Kinsale,Cork, <br /> P17 AH66, Ireland</>,
+        location: "India",
+        address: <>ABL Workspaces coworking, Sector 4 Noida, UP 201301, India</>,
     },
     {
         id: 3, 
         cls:"",
         img: img_3,
-        location: "Egypt",
-        address: <>Av. Cordoba 1309, 3'A, City of <br /> Buenos Aires, Egypt</>,
+        location: "United Kingdom",
+        address: <>coming soon</>,
     },
 ]
 
