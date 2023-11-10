@@ -4,12 +4,13 @@ import Image from 'next/image';
 import React from 'react';
 import Slider from 'react-slick';
 
-import security_img_1 from "../../../../public/assets/img/security/security-1.png";
-import security_img_2 from "../../../../public/assets/img/security/security-2.png";
-import security_img_3 from "../../../../public/assets/img/security/security-3.png";
-import security_img_4 from "../../../../public/assets/img/security/security-4.png";
-// import security_img_5 from "../../../../public/assets/img/security/security-5.png";
-import security_img_6 from "../../../../public/assets/img/security/security-3.png";
+import certification_img_1 from "../../../../public/assets/img/partners/aws.png";
+import certification_img_2 from "../../../../public/assets/img/partners/azure.png";
+import certification_img_3 from "../../../../public/assets/img/partners/jenkins.png";
+import certification_img_4 from "../../../../public/assets/img/partners/jira.png";
+import certification_img_5 from "../../../../public/assets/img/partners/sentry.png";
+import certification_img_6 from "../../../../public/assets/img/partners/tosca.svg";
+import certification_img_7 from "../../../../public/assets/img/partners/bitbucket.png";
 
 const setting = {
     speed: 7000,
@@ -55,33 +56,43 @@ const setting = {
 const security_data = [
     {
         id: 1,
-        img: security_img_1,
-        title: <>Business <br /> Security</>,        
+        img: certification_img_1,
+        title: <>Amazon <br /> Web Services</>,        
     },
     {
         id: 2,
-        img: security_img_2,
-        title: <>Logistics <br /> Security</>,        
+        img: certification_img_2,
+        title: <>Microsoft <br /> Azure</>,        
     },
     {
         id: 3,
-        img: security_img_3,
-        title: <>Education <br /> Security</>,        
+        img: certification_img_3,
+        title: <>Jenkins</>,        
     },
     {
         id: 4,
-        img: security_img_4,
-        title: <>Food <br /> & Beverage</>,        
+        img: certification_img_4,
+        title: <>Jira</>,        
     },
     {
         id: 5,
-        img: security_img_1,
-        title: <>Media & <br /> Entertainment</>,        
+        img: certification_img_5,
+        title: <>Sentry</>,        
     },
     {
         id: 6,
-        img: security_img_6,
-        title: <>Business <br /> Security</>,        
+        img: certification_img_6,
+        title: <>Tricentis Tosca</>,        
+    },
+    {
+        id: 7,
+        img: certification_img_7,
+        title: <>BitBucket</>,        
+    },
+    {
+        id: 8,
+        img: certification_img_6,
+        title: <>CDD</>,        
     },
 ]
 
@@ -95,7 +106,7 @@ const SecurityArea = () => {
                         <div className="tp-security-section-box text-center pb-100">
                            <h5 className="tp-section-subtitle-4 both pb-10 wow tpfadeUp" data-wow-duration=".9s"
                               data-wow-delay=".3s">Explore Our Level</h5>
-                           <h3 className="tp-section-title-4">Security by Industry</h3>
+                           <h3 className="tp-section-title-4">Partners & Certfications</h3>
                         </div>
                      </div>
                   </div>
@@ -113,11 +124,11 @@ const SecurityArea = () => {
                                             <h4 className="tp-security-title-sm">{item.title}</h4>
                                         </div>
                                     </div>
-                                    <div className="tp-security-link">
+                                    {/* <div className="tp-security-link">
                                         <Link href="#">
                                             <RightArrowTwo />
                                         </Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                          )} 

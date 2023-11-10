@@ -11,6 +11,7 @@ import CompanyArea from "./company-area";
 import JobArea from "./job-area";
 import JourneyArea from "./journey-area";
 import PaymentMethodArea from "@/src/common/payment-method-area";
+import TestimonialArea from "../../common/testimonial-area";
  
 const About = () => {
   return (
@@ -23,7 +24,8 @@ const About = () => {
       <PaymentMethodArea />
       <AboutArea />
       <TeamArea bg_style={true} />
-      <JourneyArea />
+      <TestimonialArea />
+      {/* <JourneyArea /> */}
       <JobArea />
       <CtaArea />
       <FooterFive style_contact={true} style_team={true} />
