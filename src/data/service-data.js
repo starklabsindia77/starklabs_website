@@ -58,7 +58,7 @@ const  service_data = [
         id: 3,
         icon: img_3,
         img: img_3,
-        title: "Cyber Security",
+        title: "Fintech Software Development",
         description: <>Shield your digital fortress with our state-of-the-art Cybersecurity solutions. From threat detection to proactive defense, we've got your back in the ever-evolving landscape of online security. Your data's safety is our priority.</>,
         delay: ".7s",
     },
