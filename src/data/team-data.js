@@ -38,16 +38,17 @@ const team_data = [
     {
         id: 4, 
         cls: 4,
-        img: team_img_3,
-        name: "Prathmesh Tangade",
+        img: team_img_4,
+        name: "Chiranjeev sharma",
         job_title:  "Project Manager",
+        
     },
     {
         id: 5, 
         cls: 1,
-        img: team_img_4,
-        name: "Digvijay",
-        job_title:  "Chief Designer",
+        img: team_img_3,
+        name: "Prathmesh Tangade",
+        job_title:  "Project Manager",
     },
 
     {
