@@ -11,6 +11,7 @@ import certification_img_4 from "../../../../public/assets/img/partners/jira.png
 import certification_img_5 from "../../../../public/assets/img/partners/sentry.png";
 import certification_img_6 from "../../../../public/assets/img/partners/tosca.svg";
 import certification_img_7 from "../../../../public/assets/img/partners/bitbucket.png";
+import certification_img_8 from "../../../../public/assets/img/partners/odoo.png";
 
 const setting = {
     speed: 7000,
@@ -91,8 +92,8 @@ const security_data = [
     },
     {
         id: 8,
-        img: certification_img_6,
-        title: <>CDD</>,        
+        img: certification_img_8,
+        title: <>Odoo Open Source ERP & CRM</>,        
     },
 ]
 

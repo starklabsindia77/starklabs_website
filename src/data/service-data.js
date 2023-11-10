@@ -8,9 +8,9 @@ import ServiceIconSeven from "../svg/service/service-icon-7"
 
 // images import  
 import img_1 from "../../public/assets/img/service/sv-icon-1.png";
-import img_2 from "../../public/assets/img/service/sv-icon-2.png";
-import img_3 from "../../public/assets/img/service/sv-icon-3.png";
-import img_4 from "../../public/assets/img/service/sv-icon-4.png";
+import img_2 from "../../public/assets/img/service/it.png";
+import img_3 from "../../public/assets/img/service/bank.png";
+import img_4 from "../../public/assets/img/service/cloud.png";
 import img_5 from "../../public/assets/img/service/sv-icon-5.png";
 
 import ManagedServices from "../../public/assets/img/service/managed-services.png";
@@ -42,6 +42,7 @@ const  service_data = [
         id: 1,
         icon: ManagedServices,
         img: ManagedServices,
+        sub_title: "Starklabs",
         title: "Managed Services",
         description: <>Why hire an internal IT person, when you can have an entire team of IT experts for a fraction of the cost?</>,
         delay: ".4s",
@@ -50,6 +51,7 @@ const  service_data = [
         id: 2,
         icon: img_2,
         img: img_2,
+        sub_title: "Starklabs",
         title: "IT Consulting & Advisory",
         description: <>We offer affordable IT solutions that help you reduce costs and improve your bottom line.</>,
         delay: ".6s",
@@ -58,6 +60,7 @@ const  service_data = [
         id: 3,
         icon: img_3,
         img: img_3,
+        sub_title: "Starklabs",
         title: "Fintech Software Development",
         description: <>Shield your digital fortress with our state-of-the-art Cybersecurity solutions. From threat detection to proactive defense, we've got your back in the ever-evolving landscape of online security. Your data's safety is our priority.</>,
         delay: ".7s",
@@ -66,7 +69,8 @@ const  service_data = [
         id: 4,
         icon: img_4,
         img: img_4,
-        title: "Cloud Services",
+        sub_title: "Starklabs",
+        title: "Cloud Consulting & Advisory",
         description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
         delay: ".8s",
     },
@@ -119,7 +123,7 @@ const  service_data = [
         icon: icon_1,
         img: icon_1,
         title: "Cyber Security Solutions",
-        sub_title: "Cloud Backup",
+        sub_title: "Starklabs",
         cls: "1",
         description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
         delay: ".9s",
@@ -129,7 +133,7 @@ const  service_data = [
         icon: icon_2,
         img: icon_2,
         title: "Mobile Development",
-        sub_title: "Cloud Backup",
+        sub_title: "Starklabs",
         cls: "2",
         description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
         delay: ".9s",
@@ -139,7 +143,7 @@ const  service_data = [
         icon: icon_3,
         img: icon_3,
         title: <>Managed <br /> Web Application</>,
-        sub_title: "Cloud Backup",
+        sub_title: "Starklabs",
         cls: "3",
         description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
         delay: ".9s",
@@ -149,7 +153,7 @@ const  service_data = [
         icon: icon_4,
         img: icon_4,
         title: "24//7 Customer Support",
-        sub_title: "Cloud Backup",
+        sub_title: "Starklabs",
         cls: "4",
         description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
         delay: ".9s",
@@ -161,7 +165,7 @@ const  service_data = [
     //     icon: img_6,
     //     img: img_6,
     //     title: <>Live Inventory <br /> Management</>,
-    //     sub_title: "Cloud Backup",
+    //     sub_title: "Starklabs",
     //     cls: "4",
     //     description: <>Track materials and stock for outsourced purchase orders</>,
     //     delay: ".9s",
@@ -171,7 +175,7 @@ const  service_data = [
     //     icon: img_7,
     //     img: img_7,
     //     title: <>Real-time Master <br />  Planning</>,
-    //     sub_title: "Cloud Backup",
+    //     sub_title: "Starklabs",
     //     cls: "4",
     //     description: <>Track materials and stock for outsourced purchase orders</>,
     //     delay: ".9s",
@@ -181,7 +185,7 @@ const  service_data = [
     //     icon: img_8,
     //     img: img_8,
     //     title: <>Easy Contract <br /> Manufacturing</>,
-    //     sub_title: "Cloud Backup",
+    //     sub_title: "Starklabs",
     //     cls: "4",
     //     description: <>Track materials and stock for outsourced purchase orders</>,
     //     delay: ".9s",
@@ -191,7 +195,7 @@ const  service_data = [
     //     icon: img_9,
     //     img: img_9,
     //     title: <>Omnichannel <br /> Order Management</>,
-    //     sub_title: "Cloud Backup",
+    //     sub_title: "Starklabs",
     //     cls: "4",
     //     description: <>Track materials and stock for outsourced purchase orders</>,
     //     delay: ".9s",
