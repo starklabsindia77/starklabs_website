@@ -39,7 +39,7 @@ const team_data = [
         id: 4, 
         cls: 4,
         img: team_img_4,
-        name: "Chiranjeev sharma",
+        name: "Chiranjeev Sharma",
         job_title:  "Project Manager",
         
     },
