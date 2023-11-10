@@ -73,14 +73,14 @@ const JobArea = ({style_carrer}) => {
                   {job_info.map((item, i)  => 
                     <div key={i} className="job-post-box">
                      <div className="row align-items-center">
-                        <div className=" col-lg-5 col-md-4">
+                        <div className=" col-lg-7 col-md-7">
                            <div className="job-post-info d-flex justify-content-start align-items-center">
                               <div className="job-post-category">
                                  <span>{item.category}</span>
                               </div>
                            </div>
                         </div>
-                        <div className=" col-lg-4 col-md-5">
+                        <div className=" col-lg-5 col-md-5">
                            <div className="job-post-wrapper d-flex align-items-center">
                               <div className="job-post-time d-flex align-items-center">
                                   <ClockIcon />
@@ -92,13 +92,13 @@ const JobArea = ({style_carrer}) => {
                               </div>
                            </div>
                         </div>
-                        <div className=" col-lg-3 col-md-3">
+                        {/* <div className=" col-lg-3 col-md-3">
                            <div className="job-post-apply-btn text-start text-md-end">
                               <Link className="tp-btn-inner tp-btn-hover alt-color-orange" 
                               href="/career-details"><span>Apply</span> <b></b>
                               </Link>
                            </div>
-                        </div>
+                        </div> */}
                      </div>
                   </div>                    
                     )

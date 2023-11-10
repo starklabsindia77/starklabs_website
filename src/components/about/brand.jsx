@@ -14,7 +14,7 @@ import brand_img_8 from "../../../public/assets/img/brand/brand-inner-8.png"
 import brand_img_9 from "../../../public/assets/img/brand/brand-inner-9.png"
 
 const brand_content = {
-    titel: "Trusted by Thousands Business",
+    titel: "Trusted by Business",
     description: <>Empowering Success Through Proven Expertise and Trusted Partnerships</>,
     
     brand_img: [
