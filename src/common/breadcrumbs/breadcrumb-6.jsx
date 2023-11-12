@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import SocialLinks from '../social-links';
 
@@ -16,43 +16,45 @@ const breadcrumb_content = {
 }
 const {sub_title, title, author_name, author_info}  = breadcrumb_content
 
-const BreadcrumbSix = () => {
-    return (
+const BreadcrumbSix = ({content}) => {   
+   const [blogContent, setBlogContent] = useState(content);
+   console.log("blog content", JSON.stringify(blogContent));
+   return (
         <>
             <div className="breadcrumb__area breadcrumb-ptb-4 p-relative blue-bg-2">
-            <div className="breadcrumb__shape-1">
-               <Image src={img_1} alt="starklabs" />
-            </div>
-            <div className="breadcrumb__shape-2">
-               <Image src={img_2} alt="starklabs" />
-            </div>
-            <div className="container">
-               <div className="row align-items-end">
-                  <div className="col-xl-9 col-lg-9 col-md-9">
-                     <div className="blog-details-banner z-index-2">
-                        <div className="blog-details-title-box">
-                           <span>{sub_title}</span>
-                           <h3 className="blog-details-banner-title">{title}</h3>
-                        </div>
-                        <div className="tp-blog-author-info-box d-flex align-items-center">
-                           <div className="tp-blog-avata">
-                              <Image src={img_3} alt="starklabs" />
+               <div className="breadcrumb__shape-1">
+                  <Image src={img_1} alt="starklabs" />
+               </div>
+               <div className="breadcrumb__shape-2">
+                  <Image src={img_2} alt="starklabs" />
+               </div>
+               <div className="container">
+                  <div className="row align-items-end">
+                     <div className="col-xl-9 col-lg-9 col-md-9">
+                        <div className="blog-details-banner z-index-2">
+                           <div className="blog-details-title-box">
+                              <span>{sub_title}</span>
+                              <h3 className="blog-details-banner-title">{title}</h3>
                            </div>
-                           <div className="tp-blog-author-info">
-                              <h5>{author_name}</h5>
-                              <span>{author_info}</span>
+                           <div className="tp-blog-author-info-box d-flex align-items-center">
+                              <div className="tp-blog-avata">
+                                 <Image src={img_3} alt="starklabs" />
+                              </div>
+                              <div className="tp-blog-author-info">
+                                 <h5>{author_name}</h5>
+                                 <span>{author_info}</span>
+                              </div>
                            </div>
                         </div>
                      </div>
-                  </div>
-                  <div className="col-xl-3 col-lg-3 col-md-3">
-                     <div className="blog-details-social-box z-index-3 text-md-end text-start">
-                        <SocialLinks />  
-                     </div>
+                     {/* <div className="col-xl-3 col-lg-3 col-md-3">
+                        <div className="blog-details-social-box z-index-3 text-md-end text-start">
+                           <SocialLinks />  
+                        </div>
+                     </div> */}
                   </div>
                </div>
             </div>
-         </div>
         </>
     );
 };
