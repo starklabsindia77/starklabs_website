@@ -62,7 +62,7 @@ const Portfolio = () => {
                         <div key={i} data-index={i} className="col-xl-4 col-lg-6 col-md-6 mb-30 grid-item cat1 cat4 cat3 cat5">
                            <div className="tp-blog-item">
                               <div className="tp-blog-thumb fix">
-                                 <Link href="/blog-details"><Image src={item.thumb_img} alt="starklabs" /></Link>
+                                 <Link href="/blog"><Image src={item.thumb_img} alt="starklabs" /></Link>
                               </div>
                               <div className="tp-blog-content">
                                  <div className="tp-blog-meta d-flex align-items-center">
@@ -74,7 +74,7 @@ const Portfolio = () => {
                                     </div>
                                  </div>
                                  <div className="tp-blog-title-box">
-                                    <Link className="tp-blog-title-sm" href="/blog-details">{item.title}</Link>
+                                    <Link className="tp-blog-title-sm" href="/blog">{item.title}</Link>
                                  </div>
                                  <div className="tp-blog-author-info-box d-flex align-items-center">
                                     <div className="tp-blog-avata">

@@ -51,7 +51,7 @@ const PostboxArea = ({style_details_2}) => {
                         <article>
                            {style_details_2 && 
                               <div className="postbox__thumb w-img">
-                                 <Link href="/blog-details">
+                                 <Link href="/blog">
                                     <Image src={blog_details_img_1} alt="" />
                                  </Link>
                               </div>

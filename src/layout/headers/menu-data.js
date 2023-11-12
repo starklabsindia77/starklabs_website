@@ -62,7 +62,7 @@ const menu_data = [
     sub_menus: [
       { link: "/blog", title: "Blog" },
       { link: "/blog-list", title: "Blog List" },
-      { link: "/blog-details", title: "Blog Details" },
+      { link: "/blog", title: "Blog Details" },
       { link: "/blog-details-2", title: "Blog Details 02" },
     ],
   },

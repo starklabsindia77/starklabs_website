@@ -84,7 +84,7 @@ const PostboxArea = () => {
                             <article key={i} className={`postbox__item ${item.cls} mb-70 transition-3`}>
                                 {item.img && 
                                     <div className="postbox__thumb w-img">
-                                        <Link href="/blog-details">
+                                        <Link href="/blog">
                                             <Image src={item.img} alt="starklabs" />
                                         </Link>
                                     </div>
@@ -92,7 +92,7 @@ const PostboxArea = () => {
                                 {item.video  && 
                                 item.video.map((item, i) => 
                                     <div key={i} className="postbox__thumb postbox__video w-img  p-relative">
-                                        <Link href="/blog-details">
+                                        <Link href="/blog">
                                             <Image src={item.video_tum} alt="starklabs" />
                                         </Link>
                                         {/* video modal start */}
@@ -116,13 +116,13 @@ const PostboxArea = () => {
                                         <span><Link href="#">{item.date}</Link></span>
                                     </div>
                                     <h3 className="postbox__title">
-                                        <Link href="/blog-details">{item.title}</Link>
+                                        <Link href="/blog">{item.title}</Link>
                                     </h3>
                                     <div className="postbox__text">
                                         <p>{item.des}</p>
                                     </div>
                                     <div className="postbox__btn mt-35">
-                                        <Link className="tp-btn-inner tp-btn-hover alt-color-black" href="/blog-details">
+                                        <Link className="tp-btn-inner tp-btn-hover alt-color-black" href="/blog">
                                             <span>Read More</span>
                                             <b></b>
                                         </Link>
