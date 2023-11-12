@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import SocialLinks from '../social-links';
 
@@ -17,11 +17,6 @@ const breadcrumb_content = {
 const {sub_title, title, author_name, author_info}  = breadcrumb_content
 
 const BreadcrumbSix = ({content}) => {   
-   const [blogContent, setBlogContent] = useState(content);
-   
-   useEffect(() => {
-      console.log("blog content 3", JSON.stringify(blogContent));
-  }, [blogContent]); 
    return (
         <>
             <div className="breadcrumb__area breadcrumb-ptb-4 p-relative blue-bg-2">
@@ -36,16 +31,16 @@ const BreadcrumbSix = ({content}) => {
                      <div className="col-xl-9 col-lg-9 col-md-9">
                         <div className="blog-details-banner z-index-2">
                            <div className="blog-details-title-box">
-                              <span>{sub_title}</span>
-                              <h3 className="blog-details-banner-title">{title}</h3>
+                              <span>{content.category}</span>
+                              <h3 className="blog-details-banner-title">{content.title.props.children}</h3>
                            </div>
                            <div className="tp-blog-author-info-box d-flex align-items-center">
                               <div className="tp-blog-avata">
-                                 <Image src={img_3} alt="starklabs" />
+                                 <Image src={content.author_img} alt="starklabs" />
                               </div>
                               <div className="tp-blog-author-info">
-                                 <h5>{author_name}</h5>
-                                 <span>{author_info}</span>
+                                 <h5>{content.author_name}</h5>
+                                 <span>{content.job_title} {content.date} </span>
                               </div>
                            </div>
                         </div>

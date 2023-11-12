@@ -151,14 +151,14 @@ const PostboxArea = ({style_details_2}) => {
                               </div>
                            </div> 
 
-                           <div className="postbox__comment mb-65">
+                           {/* <div className="postbox__comment mb-65">
                               <h3 className="postbox__comment-title">3 Comments</h3>
                               <Comments /> 
                            </div>
                            <div className="postbox__comment-form">
                               <h3 className="postbox__comment-form-title">Leave A Comment</h3>
                               <CommentPost /> 
-                           </div>
+                           </div> */}
                         </article>
                      </div>
                   </div>
