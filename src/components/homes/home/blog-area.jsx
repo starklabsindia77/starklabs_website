@@ -23,7 +23,7 @@ const BlogArea = () => {
                      </div>
                      <div className="col-xl-6 col-lg-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
                         <div className="tp-blog-four-btn text-start text-lg-end">
-                           <Link className="tp-btn-yellow-border" href="/blog-details">Show More <i className="far fa-angle-right"></i></Link>
+                           <Link className="tp-btn-yellow-border" href="/blog">Show More <i className="far fa-angle-right"></i></Link>
                         </div>
                      </div>
                   </div>

@@ -8,6 +8,7 @@ import PostboxArea from "./postbox-area";
 
 const BlogDetails = ({content}) => {
   const [blogContent, setBlogContent] = useState(content);
+  console.log("blog content 2", JSON.stringify(blogContent));
   return (
     <>
       <HeaderSix />

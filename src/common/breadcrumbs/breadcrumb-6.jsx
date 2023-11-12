@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import SocialLinks from '../social-links';
 
@@ -18,7 +18,10 @@ const {sub_title, title, author_name, author_info}  = breadcrumb_content
 
 const BreadcrumbSix = ({content}) => {   
    const [blogContent, setBlogContent] = useState(content);
-   console.log("blog content", JSON.stringify(blogContent));
+   
+   useEffect(() => {
+      console.log("blog content 3", JSON.stringify(blogContent));
+  }, [blogContent]); 
    return (
         <>
             <div className="breadcrumb__area breadcrumb-ptb-4 p-relative blue-bg-2">

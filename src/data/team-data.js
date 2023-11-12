@@ -17,14 +17,14 @@ const team_data = [
         id: 1, 
         cls: 1,
         img: team_img_1,
-        name: "Varun Pratap Singh",
+        name: "Shivam Pratap Singh",
         job_title:  "CEO & Founder",
     },
     {
         id: 2, 
         cls: 2,
         img: team_img_10,
-        name: "Sagar Gupta",
+        name: "Sagar Sharma",
         job_title:  "CTO & Founder",
     },
     
