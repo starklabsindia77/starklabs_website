@@ -47,6 +47,22 @@ const  service_data = [
         slug:"managed-services",
         description: <>Why hire an internal IT person, when you can have an entire team of IT experts for a fraction of the cost?</>,
         delay: ".4s",
+        des:{
+            overview_title: "Service Overview",
+            overview_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum, orci at
+            dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod dapibus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.</>,
+            overview_list: [
+                <>Product Quality: <br /> <span>Automatically syncs across all your devices. You can also access....</span></>,
+                <>On Demand Design: <br /> <span>Images, videos, PDFs and audio files are supported.</span></>,
+                <>Choice of Service: <span>Whatever your business needs, you can choose a service.</span></>, 
+            ],
+
+            challange_titel: "The Challange",
+            challange_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum,
+            orci at dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod
+            dapibus. Lorem ipsum dolor sit amet.!</>,
+        }
     },
     {
         id: 2,
@@ -57,6 +73,22 @@ const  service_data = [
         slug:"it-consulting-advisory",
         description: <>We offer affordable IT solutions that help you reduce costs and improve your bottom line.</>,
         delay: ".6s",
+        des:{
+            overview_title: "Service Overview",
+            overview_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum, orci at
+            dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod dapibus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.</>,
+            overview_list: [
+                <>Product Quality: <br /> <span>Automatically syncs across all your devices. You can also access....</span></>,
+                <>On Demand Design: <br /> <span>Images, videos, PDFs and audio files are supported.</span></>,
+                <>Choice of Service: <span>Whatever your business needs, you can choose a service.</span></>, 
+            ],
+
+            challange_titel: "The Challange",
+            challange_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum,
+            orci at dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod
+            dapibus. Lorem ipsum dolor sit amet.!</>,
+        }
     },
     {
         id: 3,
@@ -67,6 +99,22 @@ const  service_data = [
         slug:"fintech-software-development",
         description: <>Shield your digital fortress with our state-of-the-art Cybersecurity solutions. From threat detection to proactive defense, we've got your back in the ever-evolving landscape of online security. Your data's safety is our priority.</>,
         delay: ".7s",
+        des:{
+            overview_title: "Service Overview",
+            overview_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum, orci at
+            dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod dapibus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.</>,
+            overview_list: [
+                <>Product Quality: <br /> <span>Automatically syncs across all your devices. You can also access....</span></>,
+                <>On Demand Design: <br /> <span>Images, videos, PDFs and audio files are supported.</span></>,
+                <>Choice of Service: <span>Whatever your business needs, you can choose a service.</span></>, 
+            ],
+
+            challange_titel: "The Challange",
+            challange_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum,
+            orci at dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod
+            dapibus. Lorem ipsum dolor sit amet.!</>,
+        }
     },
     {
         id: 4,
@@ -77,6 +125,22 @@ const  service_data = [
         slug:"cloud-consulting-advisory",
         description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
         delay: ".8s",
+        des:{
+            overview_title: "Service Overview",
+            overview_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum, orci at
+            dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod dapibus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.</>,
+            overview_list: [
+                <>Product Quality: <br /> <span>Automatically syncs across all your devices. You can also access....</span></>,
+                <>On Demand Design: <br /> <span>Images, videos, PDFs and audio files are supported.</span></>,
+                <>Choice of Service: <span>Whatever your business needs, you can choose a service.</span></>, 
+            ],
+
+            challange_titel: "The Challange",
+            challange_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum,
+            orci at dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod
+            dapibus. Lorem ipsum dolor sit amet.!</>,
+        }
     },
     // {
     //     id: 5,
@@ -132,6 +196,22 @@ const  service_data = [
         cls: "1",
         description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
         delay: ".9s",
+        des:{
+            overview_title: "Service Overview",
+            overview_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum, orci at
+            dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod dapibus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.</>,
+            overview_list: [
+                <>Product Quality: <br /> <span>Automatically syncs across all your devices. You can also access....</span></>,
+                <>On Demand Design: <br /> <span>Images, videos, PDFs and audio files are supported.</span></>,
+                <>Choice of Service: <span>Whatever your business needs, you can choose a service.</span></>, 
+            ],
+
+            challange_titel: "The Challange",
+            challange_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum,
+            orci at dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod
+            dapibus. Lorem ipsum dolor sit amet.!</>,
+        }
     },
     {
         id: 11,
@@ -143,6 +223,22 @@ const  service_data = [
         cls: "2",
         description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
         delay: ".9s",
+        des:{
+            overview_title: "Service Overview",
+            overview_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum, orci at
+            dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod dapibus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.</>,
+            overview_list: [
+                <>Product Quality: <br /> <span>Automatically syncs across all your devices. You can also access....</span></>,
+                <>On Demand Design: <br /> <span>Images, videos, PDFs and audio files are supported.</span></>,
+                <>Choice of Service: <span>Whatever your business needs, you can choose a service.</span></>, 
+            ],
+
+            challange_titel: "The Challange",
+            challange_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum,
+            orci at dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod
+            dapibus. Lorem ipsum dolor sit amet.!</>,
+        }
     },
     {
         id: 12,
@@ -154,6 +250,22 @@ const  service_data = [
         cls: "3",
         description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
         delay: ".9s",
+        des:{
+            overview_title: "Service Overview",
+            overview_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum, orci at
+            dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod dapibus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.</>,
+            overview_list: [
+                <>Product Quality: <br /> <span>Automatically syncs across all your devices. You can also access....</span></>,
+                <>On Demand Design: <br /> <span>Images, videos, PDFs and audio files are supported.</span></>,
+                <>Choice of Service: <span>Whatever your business needs, you can choose a service.</span></>, 
+            ],
+
+            challange_titel: "The Challange",
+            challange_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum,
+            orci at dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod
+            dapibus. Lorem ipsum dolor sit amet.!</>,
+        }
     },
     {
         id: 13,
@@ -165,6 +277,22 @@ const  service_data = [
         cls: "4",
         description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
         delay: ".9s",
+        des:{
+            overview_title: "Service Overview",
+            overview_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum, orci at
+            dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod dapibus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.</>,
+            overview_list: [
+                <>Product Quality: <br /> <span>Automatically syncs across all your devices. You can also access....</span></>,
+                <>On Demand Design: <br /> <span>Images, videos, PDFs and audio files are supported.</span></>,
+                <>Choice of Service: <span>Whatever your business needs, you can choose a service.</span></>, 
+            ],
+
+            challange_titel: "The Challange",
+            challange_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum,
+            orci at dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod
+            dapibus. Lorem ipsum dolor sit amet.!</>,
+        }
     },
 
     // for home 05

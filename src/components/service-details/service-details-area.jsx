@@ -27,18 +27,16 @@ const service_details_content = {
          cls:"",
      },
      {
-         id: 4,
-         
+         id: 4,         
          title: "Cloud Consulting & Advisory",
          slug:"cloud-consulting-advisory",
          cls:"",
      },
      {
-      id: 5,
-      
-      title: "Cyber Security Solutions",
-      slug: "cyber-security-solutions",
-      cls:"",
+         id: 5,         
+         title: "Cyber Security Solutions",
+         slug: "cyber-security-solutions",
+         cls:"",
       },
       {
             id: 6,    
@@ -61,35 +59,25 @@ const service_details_content = {
     ],
     bg_img: "/assets/img/service/sv-bg.jpg",
 
-    overview_title: "Service Overview",
-    overview_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum, orci at
-    dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod dapibus.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</>,
-    overview_list: [
-        <>Product Quality: <br /> <span>Automatically syncs across all your devices. You can also access....</span></>,
-        <>On Demand Design: <br /> <span>Images, videos, PDFs and audio files are supported.</span></>,
-        <>Choice of Service: <span>Whatever your business needs, you can choose a service.</span></>, 
-    ],
-
-    challange_titel: "The Challange",
-    challange_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum,
-    orci at dapibus, massa ante pharetra tellus. Maecenas interdum, orci at euismod
-    dapibus. Lorem ipsum dolor sit amet.!</>,
+    
 
     
 }
 const {
     category_title, 
     categorys, 
-    bg_img,  
-    overview_title, 
-    overview_des, 
-    overview_list, 
-    challange_titel, 
-    challange_des 
+    bg_img,
 }  = service_details_content
 
 const ServiceDetailsArea = ({content}) => {
+
+   const {
+      overview_title, 
+      overview_des, 
+      overview_list, 
+      challange_titel, 
+      challange_des 
+   } = content.des
 
     return (
         <>
