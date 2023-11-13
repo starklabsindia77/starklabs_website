@@ -55,10 +55,9 @@ const blog_data = [
         category: "Blog",
         color: "",
         date: "10 min",
-        title: <>Building for the real world</>,
-        slug:'Building-for-the-real-world',
-        description: <>How friends from college went on to build one powerful
-        platform (hint: it was ours).</>,
+        title: <>Demystifying Blockchain: A Revolution in Trust and Transparency</>,
+        slug:'demystifying-blockchain:-a-revolution-in-trust-and-transparency',
+        description: <>At its core, a blockchain is a decentralized, distributed ledger that records transactions across a network of computers.</>,
         author_img: author_img_3,
         author_name: "Penny Tool",
         job_title: "Founder & CEO Dulalix"
@@ -69,10 +68,9 @@ const blog_data = [
         category: "Blog",
         color: "",
         date: "24 min",
-        title: <>High Returns on Investment</>,
-        slug:'High-Returns-on-Investment',
-        description: <>How friends from college went on to build one powerful
-        platform (hint: it was ours).</>,
+        title: <>The Rise of Headless CMS: Unleashing Content Across Multichannel Experiences</>,
+        slug:'the-rise-of-headless-cms-unleashing-content-across-multichannel-experiences',
+        description: <>A headless CMS is a content management system that separates the content creation and management process from its presentation.</>,
         author_img: author_img_3,
         author_name: "Penny Tool",
         job_title: "Founder & CEO Dulalix"

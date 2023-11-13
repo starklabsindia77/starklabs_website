@@ -105,60 +105,7 @@ const PostboxArea = ({style_details_2}) => {
                               <Link href="#">Wordpress</Link>
                            </div>
 
-                           <div className="postbox__navigation-more mb-70 d-flex justify-content-between">
-                              <div className="postbox__navigation-left d-flex align-items-center">
-                                 <div className="postbox__navigation-img">
-                                    <Link href="#"><Image src={navigation_img_1} alt="starklabs" /></Link>
-                                 </div>
-                                 <div className="postbox__navigation-content">
-                                    <Link href="#">
-                                       <span>
-                                          <i className="far fa-arrow-left"></i>
-                                          Previous post
-                                       </span>
-                                    </Link>
-                                    <h5><Link href="#">Leveraging Feedback...</Link></h5>
-                                 </div>
-                              </div>
-                              <div className="postbox__navigation-right d-flex align-items-center">
-                                 <div className="postbox__navigation-content">
-                                    <Link href="#">
-                                       <span>
-                                          Next post
-                                          <i className="far fa-arrow-right"></i> 
-                                       </span>
-                                    </Link>
-                                    <h5><Link href="#">Typing Tutorials For...</Link></h5>
-                                 </div>
-                                 <div className="postbox__navigation-img">
-                                    <Link href="#"><Image src={navigation_img_2} alt="starklabs" /></Link>
-                                 </div>
-                              </div>
-                           </div>
-
-                           <div className="postbox__details-author-info-box mb-100 d-flex align-items-start">
-                              <div className="postbox__details-author-avata">
-                                 <Image src={blog_details_avata} alt="starklabs" />
-                              </div>
-                              <div className="postbox__details-author-content">
-                                 <h5 className="postbox__details-author-title">Dianne Ameter</h5>
-                                 <p>Ex erat referrentur vis. Vim ad consul molestie, eu malorum aliquando
-                                    referrentur pro, erroribus gloriatur sed at.!
-                                 </p>
-                                 <div className="postbox__details-author-social">
-                                    <SocialLinks />  
-                                 </div>
-                              </div>
-                           </div> 
-
-                           {/* <div className="postbox__comment mb-65">
-                              <h3 className="postbox__comment-title">3 Comments</h3>
-                              <Comments /> 
-                           </div>
-                           <div className="postbox__comment-form">
-                              <h3 className="postbox__comment-form-title">Leave A Comment</h3>
-                              <CommentPost /> 
-                           </div> */}
+                          
                         </article>
                      </div>
                   </div>

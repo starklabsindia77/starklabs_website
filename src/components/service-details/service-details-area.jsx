@@ -8,11 +8,56 @@ import service_img from "../../../public/assets/img/service/sv-details-1.jpg";
 const service_details_content = {
     category_title:"Service Category",
     categorys: [
-        {id:1, category: "Branding", cls: ""},
-        {id:1, category: "Web Design", cls: "active"},
-        {id:1, category: "Mobile Application", cls: ""},
-        {id:1, category: "Development", cls: ""},
-        {id:1, category: "Illusutration", cls: ""},
+      {
+         id: 1,        
+         title: "Managed Services",
+         slug:"managed-services",
+         cls:"",         
+     },
+     {
+         id: 2,         
+         title: "IT Consulting & Advisory",
+         slug:"it-consulting-advisory",
+         cls:"",
+     },
+     {
+         id: 3,
+         title: "Fintech Software Development",
+         slug:"fintech-software-development",
+         cls:"",
+     },
+     {
+         id: 4,
+         
+         title: "Cloud Consulting & Advisory",
+         slug:"cloud-consulting-advisory",
+         cls:"",
+     },
+     {
+      id: 5,
+      
+      title: "Cyber Security Solutions",
+      slug: "cyber-security-solutions",
+      cls:"",
+      },
+      {
+            id: 6,    
+            title: "Mobile Development",
+            slug: "mobile-development",      
+            cls: "2",            
+      },
+      {
+            id: 7,      
+            title: "Managed Web Application",
+            slug: "managed-web-application",
+            cls: "3",            
+      },
+      {
+            id: 8,      
+            title: "24//7 Customer Support",
+            slug: "customer-support",
+            cls: "4",            
+      },
     ],
     bg_img: "/assets/img/service/sv-bg.jpg",
 
@@ -44,7 +89,7 @@ const {
     challange_des 
 }  = service_details_content
 
-const ServiceDetailsArea = () => {
+const ServiceDetailsArea = ({content}) => {
 
     return (
         <>
@@ -60,8 +105,8 @@ const ServiceDetailsArea = () => {
                            <div className="sv-details-category-list">
                               <ul>
                                 {categorys.map((item, i)  => 
-                                    <li key={i} className={item.cls}>
-                                        <Link href="#"><span>{item.category}</span><i className="fal fa-angle-right"></i></Link>
+                                    <li key={i} className={item.slug === content.slug ? 'active': item.cls}>
+                                        <Link href={`/service/${item.slug}`}><span>{item.title}</span><i className="fal fa-angle-right"></i></Link>
                                     </li>
                                 )} 
                               </ul>
@@ -115,7 +160,7 @@ const ServiceDetailsArea = () => {
                            <h4 className="sv-details-text-title">{challange_titel}</h4>
                            <p>{challange_des}</p>
                         </div>
-                        <div className="tp-faq-area pt-50">
+                        {/* <div className="tp-faq-area pt-50">
                            <div className="container p-0">
                               <div className="row g-0">
                                  <div className="col-xl-12">
@@ -124,7 +169,7 @@ const ServiceDetailsArea = () => {
                                  </div>
                               </div>
                            </div>
-                        </div>
+                        </div> */}
                      </div>
                   </div>
                </div>

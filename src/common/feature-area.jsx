@@ -53,7 +53,7 @@ const FeatureArea = ({style_integraton}) => {
                                             <p>{item.description}</p>
                                         </div>
                                         <div className="tp-feature-five-btn">
-                                            <Link className="tp-btn-purple" href="/service-details">Learn More</Link>
+                                            <Link className="tp-btn-purple" href="/service">Learn More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -64,7 +64,7 @@ const FeatureArea = ({style_integraton}) => {
                      <div className="row">
                         <div className="col-12">
                            <div className="tp-feature-five-link text-center">
-                              <span>Check out all of our <Link href="/service-details">All features</Link></span>
+                              <span>Check out all of our <Link href="/service">All features</Link></span>
                            </div>
                         </div>
                      </div>

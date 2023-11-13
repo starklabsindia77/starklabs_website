@@ -5,15 +5,15 @@ import HeaderSix from "@/src/layout/headers/header-6";
 import React from "react";
 import ServiceDetailsArea from "./service-details-area";
 
-const ServiceDetails = () => {
+const ServiceDetails = ({content}) => {
   return (
     <>
       <HeaderSix />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <BreadcrumbTwo title="Web Design" innertitle="Help Desk Service Details" />
-            <ServiceDetailsArea />
+            <BreadcrumbTwo title={content.title} innertitle={content.title} />
+            <ServiceDetailsArea content={content} />
             <TestimonialArea />
           </main>
           <FooterFive style_contact={true} style_team={true} bg_style={false} />

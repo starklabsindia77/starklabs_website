@@ -30,7 +30,7 @@ const ServiceArea = () => {
                               <Link className="tp-btn-inner tp-btn-hover alt-color-black wow tpfadeRight" 
                                  data-wow-duration=".9s" 
                                  data-wow-delay=".3s" 
-                                 href="/service-details">
+                                 href="/service">
                                  <span>{btn_text}</span>
                                  <b></b>
                               </Link>
@@ -47,10 +47,10 @@ const ServiceArea = () => {
                            <div className="tp-service-3-content">
                               <span>{service_title}</span>
                               <h4 className="tp-service-3-title-sm">
-                                 <Link href="/service-details">{service_info}</Link></h4>
+                                 <Link href="/service">{service_info}</Link></h4>
                            </div>
                            <div className="tp-service-3-btn">
-                              <Link className="tp-btn-white-solid" href="/service-details">Learn More</Link>
+                              <Link className="tp-btn-white-solid" href="/service">Learn More</Link>
                            </div>
                            <div className="tp-service-3-shape">
                               <Image src={service_icon_2} alt="starklabs" />
@@ -66,9 +66,9 @@ const ServiceArea = () => {
                            </div>
                            <div className="tp-service-sm-content">
                               <span>{item.title}</span>
-                              <h3 className="tp-service-sm-title"><Link href="/service-details">{item.description}</Link></h3>
+                              <h3 className="tp-service-sm-title"><Link href="/service">{item.description}</Link></h3>
                               <div className="tp-service-sm-link">
-                                 <Link href="/service-details">Learn More <i className="far fa-arrow-right"></i></Link>
+                                 <Link href="/service">Learn More <i className="far fa-arrow-right"></i></Link>
                               </div>
                            </div>
                         </div>
