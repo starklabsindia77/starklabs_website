@@ -9,8 +9,11 @@ const index = ({ id }) => {
     const [serviceContent, setServiceContent] = useState(null);
     useEffect(() => {
         const foundItem = service_data.find(item => item.slug === id);
-        setServiceContent(foundItem);        
-    }, [serviceContent]);
+        setServiceContent(foundItem); 
+        console.log("service info ", foundItem);       
+    }, [id]);
+
+
 
     if (serviceContent === null) {
         return <div>Loading...</div>; // Or display a message that content is not available

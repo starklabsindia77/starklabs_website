@@ -10,7 +10,7 @@ const Index = ({ id }) => {
     useEffect(() => {
         const foundItem = blog_data.find(item => item.slug === id);
         setBlogContent(foundItem);        
-    }, [blogContent]);
+    }, [id]);
     
     if (blogContent === null) {
         return <div>Loading...</div>; // Or display a message that content is not available
